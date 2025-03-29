@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { CircleUserRound, ShoppingCart } from 'lucide-react';
 // import logo  from '../../public/assets/natural-nest.png'
 
 export const NavBar = () => {
   return (
-    <div className="bg-lime-600 h-20 p-3 pl-5 pr-5 text-white font-sans text-2xl flex justify-between items-center">
+    <div className="bg-lime-600 h-20 p-3 pl-5 pr-5 text-white font-sans text-2xl flex justify-between items-center sticky top-0 z-50 shadow-md">
       <div>
         <h1 className="text-white font-cursive">Natural Nest</h1>
         <div className="w-30 h-0.5 bg-white ml-2 mt-2"></div>

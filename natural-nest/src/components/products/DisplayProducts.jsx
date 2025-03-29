@@ -23,7 +23,7 @@ export const DisplayProducts = ({ products }) => {
               <span className="text-2xl font-bold text-white">&#8377;{product.price}</span>{" "}
               <strike className="text-gray-200">&#8377;{product.strikeoutPrice}</strike>
             </p>
-            <button className="mt-5 p-2 text-white bg-green-500 border-2 border-green-500 font-bold hover:bg-green-600 rounded-md">
+            <button className="mt-5 p-2 text-white bg-green-500 border-2 border-green-500 font-bold hover:bg-green-600 rounded-md cursor-pointer">
               Add to Cart
             </button>
           </div>
