@@ -71,7 +71,7 @@ export const Register = () => {
 
     try {
       let response = await axios.post(
-        "https://lets-chat-ca155-default-rtdb.firebaseio.com/users.json",
+        "https://natural-nest-723f4-default-rtdb.firebaseio.com/users.json",
         user
       );
 
@@ -92,96 +92,96 @@ export const Register = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-300 to-blue-200 px-4">
-      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-lime-600 to-lime-500 px-4">
+      <div className="w-full max-w-md bg-lime-600 text-white p-8 rounded-lg shadow-lg">
         <h1 className="text-2xl font-bold text-center mb-6">Register</h1>
         <form onSubmit={handleSubmit} className="space-y-4">
           {/* Username */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Username</label>
+            <label className="block text-sm font-medium">Username</label>
             <input
               type="text"
               name="username"
               value={user.username}
               onChange={handleChange}
               placeholder="Enter username"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
             />
-            {user.errors.username && <p className="text-red-500 text-sm">{user.errors.username}</p>}
+            {user.errors.username && <p className="text-red-300 text-sm">{user.errors.username}</p>}
           </div>
 
           {/* Email */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Email</label>
+            <label className="block text-sm font-medium">Email</label>
             <input
               type="email"
               name="email"
               value={user.email}
               onChange={handleChange}
               placeholder="Enter email"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
             />
-            {user.errors.email && <p className="text-red-500 text-sm">{user.errors.email}</p>}
+            {user.errors.email && <p className="text-red-300 text-sm">{user.errors.email}</p>}
           </div>
 
           {/* Password */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Password</label>
+            <label className="block text-sm font-medium">Password</label>
             <input
               type="password"
               name="password"
               value={user.password}
               onChange={handleChange}
               placeholder="Enter password"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
             />
-            {user.errors.password && <p className="text-red-500 text-sm">{user.errors.password}</p>}
+            {user.errors.password && <p className="text-red-300 text-sm">{user.errors.password}</p>}
           </div>
 
           {/* Confirm Password */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Confirm Password</label>
+            <label className="block text-sm font-medium">Confirm Password</label>
             <input
               type="password"
               name="confirm_password"
               value={user.confirm_password}
               onChange={handleChange}
               placeholder="Confirm password"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
             />
             {user.errors.confirm_password && (
-              <p className="text-red-500 text-sm">{user.errors.confirm_password}</p>
+              <p className="text-red-300 text-sm">{user.errors.confirm_password}</p>
             )}
           </div>
 
           {/* Phone */}
           <div>
-            <label className="block text-sm font-medium text-gray-700">Phone</label>
+            <label className="block text-sm font-medium ">Phone</label>
             <input
               type="text"
               name="phone"
               value={user.phone}
               onChange={handleChange}
               placeholder="Enter phone number"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
             />
-            {user.errors.phone && <p className="text-red-500 text-sm">{user.errors.phone}</p>}
+            {user.errors.phone && <p className="text-red-300 text-sm">{user.errors.phone}</p>}
           </div>
 
           {/* Submit Button */}
           <div>
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300"
+              className="mt-5 p-2 w-full text-white bg-green-500 border-2 border-green-500 font-bold hover:bg-green-600 rounded-md cursor-pointer"
             >
               Register
             </button>
           </div>
-          <p className="text-gray-600 text-sm text-center mt-4">
+          <p className="text-sm text-center mt-4">
              If you already registered before, then{" "}
              <Link
                to="/signin"
-               className="text-blue-500 font-medium hover:underline hover:text-blue-700 transition duration-300"
+               className="text-green-300 font-medium hover:underline hover:text-green-400 transition duration-300"
              >
                Sign In
              </Link>
