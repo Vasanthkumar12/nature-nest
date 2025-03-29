@@ -4,7 +4,7 @@
         "product_name": "Green Banana",
         "price": 40,
         "strikeoutPrice": "70",
-        "quantity": "500 g",
+        "quantity": "5 pcs",
         "image": "/public/assets/vegetables/green-banana.jpg",
         "category": "vegetables"
     },
@@ -38,9 +38,9 @@
     {
         "id": 5,
         "product_name": "Carrot",
-        "price": 10,
-        "strikeoutPrice": "20",
-        "quantity": "1 bundle",
+        "price": 50,
+        "strikeoutPrice": "70",
+        "quantity": "1 kg",
         "image": "/public/assets/vegetables/carrot.jpeg",
         "category": "vegetables"
     },
@@ -74,9 +74,9 @@
     {
         "id": 9,
         "product_name": "Radish",
-        "price": 10,
-        "strikeoutPrice": "20",
-        "quantity": "1 bundle",
+        "price": 40,
+        "strikeoutPrice": "60",
+        "quantity": "1 kg",
         "image": "/public/assets/vegetables/radish.jpeg",
         "category": "vegetables"
     },
@@ -100,11 +100,11 @@
     },
     {
         "id": 12,
-        "product_name": "Ginger",
-        "price": 40,
-        "strikeoutPrice": "70",
-        "quantity": "100 g",
-        "image": "/public/assets/vegetables/ginger.jpg",
+        "product_name": "Poondu",
+        "price": 120,
+        "strikeoutPrice": "160",
+        "quantity": "1 kg",
+        "image": "/public/assets/vegetables/poondu.jpg",
         "category": "vegetables"
     },
     {
@@ -112,9 +112,9 @@
         "product_name": "Grandiflora",
         "price": 70,
         "strikeoutPrice": "120",
-        "quantity": "500 g",
+        "quantity": "1 bunch",
         "image": "/public/assets/vegetables/grandiflora.jpg",
-        "category": "vegetables"
+        "category": "greens"
     },
     {
         "id": 14,
@@ -130,26 +130,26 @@
         "product_name": "Drumstick Leaf",
         "price": 30,
         "strikeoutPrice": "50",
-        "quantity": "1 bundle",
+        "quantity": "1 bunch",
         "image": "/public/assets/vegetables/drumstick-leaf.png",
-        "category": "vegetables"
+        "category": "greens"
     },
     {
         "id": 16,
         "product_name": "Pudina",
         "price": 10,
         "strikeoutPrice": "20",
-        "quantity": "1 bundle",
+        "quantity": "1 bunch",
         "image": "/public/assets/vegetables/pudina.jpg",
-        "category": "vegetables"
+        "category": "greens"
     },
     {
         "id": 17,
-        "product_name": "Poondu",
-        "price": 10,
-        "strikeoutPrice": "20",
-        "quantity": "1 bundle",
-        "image": "/public/assets/vegetables/poondu.jpg",
+        "product_name": "Ginger",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "100 g",
+        "image": "/public/assets/vegetables/ginger.jpg",
         "category": "vegetables"
     },
     {
@@ -166,34 +166,34 @@
         "product_name": "Curry Leaf",
         "price": 5,
         "strikeoutPrice": "15",
-        "quantity": "1 bundle",
+        "quantity": "1 bunch",
         "image": "/public/assets/vegetables/curry-leaves.jpg",
-        "category": "vegetables"
+        "category": "greens"
     },
     {
         "id": 20,
         "product_name": "Corindar",
         "price": 10,
         "strikeoutPrice": "30",
-        "quantity": "1 bundle",
+        "quantity": "1 bunch",
         "image": "/public/assets/vegetables/corindar.jpg",
-        "category": "vegetables"
+        "category": "greens"
     },
     {
         "id": 21,
         "product_name": "Bitter Guard",
-        "price": 10,
-        "strikeoutPrice": "20",
-        "quantity": "1 bundle",
+        "price": 60,
+        "strikeoutPrice": "80",
+        "quantity": "1 kg",
         "image": "/public/assets/vegetables/bitter-guard.jpeg",
         "category": "vegetables"
     },
     {
         "id": 22,
         "product_name": "Beans",
-        "price": 10,
-        "strikeoutPrice": "20",
-        "quantity": "1 bundle",
+        "price": 30,
+        "strikeoutPrice": "50",
+        "quantity": "1 kg",
         "image": "/public/assets/vegetables/beans.jpeg",
         "category": "vegetables"
     }

@@ -8,7 +8,7 @@ export const DisplayProducts = ({ products }) => {
         {products.map((product) => (
           <div
             key={product.id}
-            className="w-full max-w-xs mx-auto relative tracking-wide p-5 flex flex-col justify-evenly overflow-hidden border border-gray-200 rounded-lg shadow-md"
+            className="bg-white w-full max-w-xs mx-auto relative tracking-wide p-5 flex flex-col justify-evenly overflow-hidden border border-gray-200 rounded-lg shadow-md"
           >
             <div className="overflow-hidden rounded-md">
               <img
@@ -17,11 +17,11 @@ export const DisplayProducts = ({ products }) => {
                 className="h-48 w-full object-cover shadow-lg ring-2 ring-green-500 shadow-yellow-800/50 transition-transform duration-500 ease-in-out hover:scale-110"
               />
             </div>
-            <h3 className="pt-5 font-semibold text-lg text-center">{product.product_name}</h3>
-            <p className="pt-3 text-center">{product.quantity}</p>
-            <p className="pt-4 text-center tracking-tight">
-              <span className="text-2xl font-bold text-white">&#8377;{product.price}</span>{" "}
-              <strike className="text-gray-200">&#8377;{product.strikeoutPrice}</strike>
+            <h3 className="pt-5 pl-3 font-semibold text-lg text-green-700">{product.product_name}</h3>
+            <p className="pt-3 pl-3 text-green-700">{product.quantity}</p>
+            <p className="pt-4 pl-3 tracking-tight">
+              <span className="text-2xl font-bold text-green-700">&#8377;{product.price}</span>{" "}
+              <strike className="text-green-500">&#8377;{product.strikeoutPrice}</strike>
             </p>
             <button className="mt-5 p-2 text-white bg-green-500 border-2 border-green-500 font-bold hover:bg-green-600 rounded-md cursor-pointer">
               Add to Cart
