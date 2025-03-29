@@ -105,7 +105,7 @@ export const Register = () => {
               value={user.username}
               onChange={handleChange}
               placeholder="Enter username"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0 focus:border-white"
             />
             {user.errors.username && <p className="text-red-300 text-sm">{user.errors.username}</p>}
           </div>
@@ -119,7 +119,7 @@ export const Register = () => {
               value={user.email}
               onChange={handleChange}
               placeholder="Enter email"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0 focus:border-white"
             />
             {user.errors.email && <p className="text-red-300 text-sm">{user.errors.email}</p>}
           </div>
@@ -133,7 +133,7 @@ export const Register = () => {
               value={user.password}
               onChange={handleChange}
               placeholder="Enter password"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0 focus:border-white"
             />
             {user.errors.password && <p className="text-red-300 text-sm">{user.errors.password}</p>}
           </div>
@@ -147,7 +147,7 @@ export const Register = () => {
               value={user.confirm_password}
               onChange={handleChange}
               placeholder="Confirm password"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0 focus:border-white"
             />
             {user.errors.confirm_password && (
               <p className="text-red-300 text-sm">{user.errors.confirm_password}</p>
@@ -163,7 +163,7 @@ export const Register = () => {
               value={user.phone}
               onChange={handleChange}
               placeholder="Enter phone number"
-              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0"
+              className="mt-1 block w-full p-2 border border-gray-300 rounded-lg outline-0 focus:border-white"
             />
             {user.errors.phone && <p className="text-red-300 text-sm">{user.errors.phone}</p>}
           </div>
