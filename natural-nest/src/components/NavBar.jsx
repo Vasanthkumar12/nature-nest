@@ -26,10 +26,10 @@ export const NavBar = () => {
           Register
         </NavLink>
         <NavLink  to='/profile'>
-            <CircleUserRound class="h-8 w-8" />
+            <CircleUserRound className="h-8 w-8" />
         </NavLink>
         <NavLink  to='/profile'>
-            <ShoppingCart class="h-8 w-8" />
+            <ShoppingCart className="h-8 w-8" />
         </NavLink>
       </div>
 

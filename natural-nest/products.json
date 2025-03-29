@@ -1,0 +1,201 @@
+[
+    {
+        "id": 1,
+        "product_name": "Green Banana",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/green-banana.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 2,
+        "product_name": "Brinjal",
+        "price": 20,
+        "strikeoutPrice": "50",
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/brinjal.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 3,
+        "product_name": "Chilly",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "100 g",
+        "image": "/public/assets/vegetables/chilly.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 4,
+        "product_name": "Potato",
+        "price": 30,
+        "strikeoutPrice": "70",
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/potato.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 5,
+        "product_name": "Carrot",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/carrot.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 6,
+        "product_name": "Tomato",
+        "price": 20,
+        "strikeoutPrice": "40",
+        "quantity": "1 kg",
+        "image": "/public/assets/vegetables/tomato.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 7,
+        "product_name": "Big Onion",
+        "price": 60,
+        "strikeoutPrice": 80,
+        "quantity": "1 kg",
+        "image": "/public/assets/vegetables/big-onion.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 8,
+        "product_name": "Small Onion",
+        "price": 120,
+        "strikeoutPrice": 150,
+        "quantity": "1 kg",
+        "image": "/public/assets/vegetables/small-onion.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 9,
+        "product_name": "Radish",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/radish.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 10,
+        "product_name": "Kovaikkai",
+        "price": 80,
+        "strikeoutPrice": 100,
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/kovaikkai.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 11,
+        "product_name": "Organic Poondu",
+        "price": 70,
+        "strikeoutPrice": "120",
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/organic-poondu.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 12,
+        "product_name": "Ginger",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "100 g",
+        "image": "/public/assets/vegetables/ginger.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 13,
+        "product_name": "Grandiflora",
+        "price": 70,
+        "strikeoutPrice": "120",
+        "quantity": "500 g",
+        "image": "/public/assets/vegetables/grandiflora.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 14,
+        "product_name": "Drumstick",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "5 pcs",
+        "image": "/public/assets/vegetables/drumstick.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 15,
+        "product_name": "Drumstick Leaf",
+        "price": 30,
+        "strikeoutPrice": "50",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/drumstick-leaf.png",
+        "category": "vegetables"
+    },
+    {
+        "id": 16,
+        "product_name": "Pudina",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/pudina.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 17,
+        "product_name": "Poondu",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/poondu.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 18,
+        "product_name": "Snake Guard",
+        "price": 40,
+        "strikeoutPrice": "70",
+        "quantity": "5 pcs",
+        "image": "/public/assets/vegetables/snake-guard.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 19,
+        "product_name": "Curry Leaf",
+        "price": 5,
+        "strikeoutPrice": "15",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/curry-leaves.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 20,
+        "product_name": "Corindar",
+        "price": 10,
+        "strikeoutPrice": "30",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/corindar.jpg",
+        "category": "vegetables"
+    },
+    {
+        "id": 21,
+        "product_name": "Bitter Guard",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/bitter-guard.jpeg",
+        "category": "vegetables"
+    },
+    {
+        "id": 22,
+        "product_name": "Beans",
+        "price": 10,
+        "strikeoutPrice": "20",
+        "quantity": "1 bundle",
+        "image": "/public/assets/vegetables/beans.jpeg",
+        "category": "vegetables"
+    }
+      
+]
