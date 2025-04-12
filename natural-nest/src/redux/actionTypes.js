@@ -1,0 +1,3 @@
+export const DISPLAY_PRODUCTS = 'DISPLAY_PRODUCTS'
+export const FETCH_LOADING = 'FETCH_LOADING'
+export const FETCH_ERROR = 'FETCH_ERROR'
