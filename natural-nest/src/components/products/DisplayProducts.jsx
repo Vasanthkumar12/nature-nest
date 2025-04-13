@@ -1,11 +1,53 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
+import { useSelector } from 'react-redux'
+import { FaSearch } from 'react-icons/fa'
 
-export const DisplayProducts = ({ products }) => {
+export const DisplayProducts = () => {
+  const products = useSelector(state => state.products)
+
+  const [filterByName, setFilterByName] = useState('')
+
+  const searchRef = useRef(null)
+
+  let filteredResult = []
+  const lowerSearch = filterByName.toLowerCase();
+  filteredResult = products
+    .filter(product =>
+      product.product_name.toLowerCase().includes(lowerSearch)
+    )
+    .sort((a, b) => {
+      const aStarts = a.product_name.toLowerCase().startsWith(lowerSearch) ? -1 : 1;
+      const bStarts = b.product_name.toLowerCase().startsWith(lowerSearch) ? -1 : 1;
+      return aStarts - bStarts;
+    }
+  );
+
+  const result = (filteredResult.length > 0) ? filteredResult : products
+
   return (
     <>
       <h1 className="text-3xl text-center mt-5 mb-10">Fresh Vegetables</h1>
+
+      <div className="flex justify-center mb-10">
+        <div className="bg-white flex items-center rounded-full overflow-hidden shadow-md">
+          <FaSearch
+            onClick={ (e) => searchRef.current.focus() }
+            className="mx-3 text-green-600 cursor-pointer"
+          />
+          <input
+            type="search"
+            ref={searchRef}
+            onChange={(e) => setFilterByName(e.target.value)}
+            placeholder="Search Products..."
+            className="p-2 pr-4 w-64 text-green-700 outline-none"
+          />
+        </div>
+
+
+      </div>
+
       <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 px-4">
-        {products.map((product) => (
+        {result.map((product) => (
           <div
             key={product.id}
             className="bg-white w-full max-w-xs mx-auto relative tracking-wide p-5 flex flex-col justify-evenly overflow-hidden border border-gray-200 rounded-lg shadow-md"
