@@ -5,14 +5,14 @@ import { CircleUserRound, ShoppingCart } from 'lucide-react';
 
 export const NavBar = () => {
   return (
-    <div className="bg-lime-600 h-20 p-3 pl-5 pr-5 text-white font-sans text-2xl flex justify-between items-center sticky top-0 z-50 shadow-md">
+    <div className="bg-lime-200 h-20 p-3 pl-5 pr-5 text-lime-600 font-sans text-2xl flex justify-between items-center sticky top-0 z-50 shadow-md">
       <div>
-        <h1 className="text-white font-cursive">Natural Nest</h1>
-        <div className="w-30 h-0.5 bg-white ml-2 mt-2"></div>
+        <h1 className="text-lime-600 font-cursive font-bold text-3xl ml-50">Natural Nest</h1>
+        <div className="w-30 h-1 bg-lime-600 ml-5 mt-2 ml-55"></div>
       </div>
 
       {/* Desktop and larger screens */}
-      <div className="hidden md:flex space-x-6 text-white">
+      <div className="hidden md:flex space-x-19  font-bold text-3xl text-lime-600" >
         <NavLink to="/">
           Home
         </NavLink>
@@ -26,10 +26,10 @@ export const NavBar = () => {
           Register
         </NavLink>
         <NavLink  to='/profile'>
-            <CircleUserRound className="h-8 w-8" />
+            <CircleUserRound className="h-8 w-8 mt-2" />
         </NavLink>
         <NavLink  to='/profile'>
-            <ShoppingCart className="h-8 w-8" />
+            <ShoppingCart className="h-8 w-8 mr-20 mt-2" />
         </NavLink>
       </div>
 

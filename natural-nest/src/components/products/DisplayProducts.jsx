@@ -24,22 +24,26 @@ export const DisplayProducts = () => {
 
   const result = (filteredResult.length > 0) ? filteredResult : products
 
+  const addCart = () => {
+
+  }
+
   return (
     <>
-      <h1 className="text-3xl text-center mt-5 mb-10">Fresh Vegetables</h1>
+      <h1 className="text-3xl text-lime-600 font-bold text-center mt-5 mb-10">Fresh Vegetables</h1>
 
       <div className="flex justify-center mb-10">
         <div className="bg-white flex items-center rounded-full overflow-hidden shadow-md">
           <FaSearch
             onClick={ (e) => searchRef.current.focus() }
-            className="mx-3 text-green-600 cursor-pointer"
+            className="mx-3 text-lime-600 cursor-pointer"
           />
           <input
             type="search"
             ref={searchRef}
             onChange={(e) => setFilterByName(e.target.value)}
             placeholder="Search Products..."
-            className="p-2 pr-4 w-64 text-green-700 outline-none"
+            className="p-2 pr-4 w-64 text-lime-600 outline-none"
           />
         </div>
 
@@ -59,13 +63,13 @@ export const DisplayProducts = () => {
                 className="h-48 w-full object-cover shadow-lg ring-2 ring-green-500 shadow-yellow-800/50 transition-transform duration-500 ease-in-out hover:scale-110"
               />
             </div>
-            <h3 className="pt-5 pl-3 font-semibold text-lg text-green-700">{product.product_name}</h3>
-            <p className="pt-3 pl-3 text-green-700">{product.quantity}</p>
-            <p className="pt-4 pl-3 tracking-tight">
-              <span className="text-2xl font-bold text-green-700">&#8377;{product.price}</span>{" "}
-              <strike className="text-green-500">&#8377;{product.strikeoutPrice}</strike>
+            <h3 className="pt-5 pl-3 font-semibold text-2xl text-black">{product.product_name}</h3>
+            <p className="pt-1 pl-3 text-[20px] text-green-700">{product.quantity}</p>
+            <p className="pt-1 pl-3 tracking-tight">
+              <span className="text-2xl font-bold text-lime-600">&#8377;{product.price}</span>{" "}
+              <strike className="text-lime-600">&#8377;{product.strikeoutPrice}</strike>
             </p>
-            <button className="mt-5 p-2 text-white bg-green-500 border-2 border-green-500 font-bold hover:bg-green-600 rounded-md cursor-pointer">
+            <button onClick={addCart} className="mt-2 p-2 pt-1 text-lime-600 text-2xl bg-lime-200 border-2 border-lime-200 font-bold hover:bg-lime-500 hover:text-lime-200 rounded-md cursor-pointer">
               Add to Cart
             </button>
           </div>

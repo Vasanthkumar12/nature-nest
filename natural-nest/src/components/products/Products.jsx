@@ -16,13 +16,13 @@ export const Products = () => {
     return (
       <>
         { errorsList.length > 0 ? (
-          <div className='flex justify-center items:center text-4xl pt-40 bg-lime-600 h-110 text-white'>
+          <div className='flex justify-center items:center text-4xl pt-40 bg-lime-400 h-110 text-white'>
             { errorsList }
           </div>) : (
           loading ? (
-            <div className='flex justify-center items:center text-4xl pt-40 bg-lime-600 h-110 text-white'>Fetching Products...</div>
+            <div className='flex justify-center items:center text-4xl pt-40 bg-lime-400 h-110 text-white'>Fetching Products...</div>
           ) : (
-            <div className="bg-lime-600 p-3 pl-5 pr-5 text-white font-sans">
+            <div className="bg-lime-200 p-3 pl-5 pr-5 text-white font-sans">
                 <DisplayProducts />
             </div>
             )
