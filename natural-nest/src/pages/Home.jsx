@@ -19,7 +19,7 @@ export const Home = () => {
           <p className='text-2xl text-lime-700'>Welcome to Natural Nest – Your Trusted Source for Fresh & Healthy Living! At Natural Nest, we believe that good health starts with natural choices. That’s why we bring you a handpicked selection of fresh vegetables, juicy fruits, and other wholesome items – all sourced with care and delivered with love. Whether you're looking to eat clean, live better, or simply enjoy the taste of nature, Natural Nest is your go-to destination for nutritious, farm-fresh goodness.
           Experience the freshness. Embrace the health. Start your journey with Natural Nest today!</p>
         </div>
-        <div className="mt-10 bg-[url('/assets/bg.jpg')] bg-center bg-cover bg-no-repeat opacity-90 flex flex-col justify-center items-center px-4 text-center shadow-xl">
+        <div className="mt-10 bg-[url('/src/assets/bg.jpg')] bg-center bg-cover bg-no-repeat opacity-90 flex flex-col justify-center items-center px-4 text-center shadow-xl">
         </div>
       </div>
     </div>
