@@ -1,5 +1,5 @@
 {
-  "name": "natural-nest",
+  "name": "stopwatch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,19 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.17",
-    "axios": "^1.8.4",
-    "lucide-react": "^0.484.0",
-    "natural-nest": "file:",
-    "netlify-cli": "^21.4.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0",
-    "react-redux": "^9.2.0",
-    "react-router-dom": "^7.4.0",
-    "redux": "^5.0.1",
-    "redux-thunk": "^3.1.0",
-    "tailwindcss": "^4.0.17"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

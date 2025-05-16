@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+</head>
+<body>
+    <h1>Products</h1>
+    <ul id="productsList">
+
+    </ul>
+
+    <button id="previousBtn">previous</button>
+    <span id="status"> </span>
+    <button id="nextBtn">next</button>
+</body>
+<script>
+    const products = [
+        { id: 1, name: "Product 1", description: "Description of Product 1", price: "$10" },
+        { id: 2, name: "Product 2", description: "Description of Product 2", price: "$20" },
+        { id: 3, name: "Product 3", description: "Description of Product 3", price: "$30" },
+        { id: 4, name: "Product 4", description: "Description of Product 4", price: "$40" },
+        { id: 5, name: "Product 5", description: "Description of Product 5", price: "$50" },
+        { id: 6, name: "Product 6", description: "Description of Product 6", price: "$60" },
+        { id: 7, name: "Product 7", description: "Description of Product 7", price: "$70" },
+        { id: 8, name: "Product 8", description: "Description of Product 8", price: "$80" },
+        { id: 9, name: "Product 9", description: "Description of Product 9", price: "$90" },
+        { id: 10, name: "Product 10", description: "Description of Product 10", price: "$100" },
+        { id: 11, name: "Product 11", description: "Description of Product 11", price: "$110" },
+        { id: 12, name: "Product 12", description: "Description of Product 12", price: "$120" },
+        { id: 13, name: "Product 13", description: "Description of Product 13", price: "$130" },
+        { id: 14, name: "Product 14", description: "Description of Product 14", price: "$140" },
+        { id: 15, name: "Product 15", description: "Description of Product 15", price: "$150" },
+    ];
+
+    let per_page = 4
+    let curr_page = 1
+    let total_pages = Math.ceil(products.length/per_page)
+
+    const displayProducts = () => {
+        let productsList = document.getElementById('productsList')
+        productsList.innerHTML = ''
+
+        let start = (curr_page - 1) * per_page
+        let end = start + per_page
+        let paginatedItems = products.slice(start, end)
+
+        paginatedItems.forEach((product) => {
+            let li = document.createElement('li')
+            li.innerHTML = `
+                <div>
+                    <p><strong>name : </strong>${product.name}</p>
+                    <p><strong>description : </strong>${product.description}</p>
+                    <p><strong>price : </strong>${product.price}</p>
+                </div>
+            `
+            productsList.appendChild(li)
+        } )
+
+        document.getElementById('previousBtn').disabled = curr_page == 1
+        document.getElementById('nextBtn').disabled = curr_page == total_pages
+
+        document.getElementById('previousBtn').addEventListener('click', () => {
+            if(curr_page > 1) {
+                curr_page --
+                displayProducts()
+            }
+        })
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if(curr_page < total_pages) {
+                curr_page ++
+                displayProducts()
+            }
+        })
+    }
+
+    displayProducts()
+</script>
+</html>
