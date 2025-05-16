@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { useSelector } from 'react-redux'
 import { FaSearch } from 'react-icons/fa'
+// import bana from 
 
 export const DisplayProducts = () => {
   const products = useSelector(state => state.products)
@@ -62,6 +63,8 @@ export const DisplayProducts = () => {
                 alt={product.product_name}
                 className="h-48 w-full object-cover shadow-lg ring-2 ring-green-500 shadow-yellow-800/50 transition-transform duration-500 ease-in-out hover:scale-110"
               />
+              {/* <img src="./src/assets/vegetables/banana.jpg" alt="ima" /> */}
+
             </div>
             <h3 className="pt-5 pl-3 font-semibold text-2xl text-black">{product.product_name}</h3>
             <p className="pt-1 pl-3 text-[20px] text-green-700">{product.quantity}</p>
@@ -72,6 +75,7 @@ export const DisplayProducts = () => {
             <button onClick={addCart} className="mt-2 p-2 pt-1 text-lime-600 text-2xl bg-lime-200 border-2 border-lime-200 font-bold hover:bg-lime-500 hover:text-lime-200 rounded-md cursor-pointer">
               Add to Cart
             </button>
+
           </div>
         ))}
       </div>
