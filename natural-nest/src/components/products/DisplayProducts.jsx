@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { useSelector } from 'react-redux'
 import { FaSearch } from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 // import bana from 
 
 export const DisplayProducts = () => {
@@ -23,11 +24,7 @@ export const DisplayProducts = () => {
     }
   );
 
-  const result = (filteredResult.length > 0) ? filteredResult : products
-
-  const addCart = () => {
-
-  }
+  const result = (filteredResult.length > 0 || lowerSearch.length > 0) ? filteredResult : products
 
   return (
     <>
@@ -72,9 +69,11 @@ export const DisplayProducts = () => {
               <span className="text-2xl font-bold text-lime-600">&#8377;{product.price}</span>{" "}
               <strike className="text-lime-600">&#8377;{product.strikeoutPrice}</strike>
             </p>
-            <button onClick={addCart} className="mt-2 p-2 pt-1 text-lime-600 text-2xl bg-lime-200 border-2 border-lime-200 font-bold hover:bg-lime-500 hover:text-lime-200 rounded-md cursor-pointer">
-              Add to Cart
-            </button>
+            <Link to={`/view-details/${product.id}`}>
+                <button className="mt-2 p-2 pt-1 text-lime-600 text-2xl bg-lime-200 border-2 border-lime-200 font-bold hover:bg-lime-500 hover:text-lime-200 rounded-md cursor-pointer">
+                Add to Cart
+              </button>
+            </Link>
 
           </div>
         ))}

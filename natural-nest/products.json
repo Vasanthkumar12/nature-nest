@@ -6,7 +6,8 @@
         "strikeoutPrice": "70",
         "quantity": "5 pcs",
         "image": "/assets/vegetables/banana.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Nutritious and filling, Green Bananas are rich in fiber and resistant starch\u2014ideal for managing blood sugar and digestion. Perfect for making healthy curries, chips, or stir-fries. Sourced fresh, they\u2019re your guilt-free carb alternative. Taste health in every bite!"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "strikeoutPrice": "50",
         "quantity": "500 g",
         "image": "/assets/vegetables/brinjal.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Glossy and flavorful, our Brinjals are perfect for roasting, stuffing, or grilling. Rich in fiber and antioxidants, they support heart health and digestion. Add color and nutrition to your plate with this versatile veggie. Eat well, live better!"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "strikeoutPrice": "70",
         "quantity": "100 g",
         "image": "/assets/vegetables/chilly.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Add spice to life with our farm-fresh Chillies! Perfect for giving your dishes a bold, fiery kick. Loaded with Vitamin C and antioxidants to boost immunity. A must-have for every kitchen \u2014 where flavor meets freshness!"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "strikeoutPrice": "70",
         "quantity": "500 g",
         "image": "/assets/vegetables/potato.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Golden, earthy, and versatile! Our fresh Potatoes are perfect for curries, fries, and mash. Rich in potassium and energy, they make every meal heartier. Stock up on this timeless classic \u2014 simple, satisfying, and essential!"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "strikeoutPrice": "70",
         "quantity": "1 kg",
         "image": "/assets/vegetables/carrot.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Bright, crunchy, and naturally sweet, Carrots are loaded with beta-carotene for glowing skin and sharp vision. Ideal for salads, juices, and cooking. Taste the crunch of freshness in every bite \u2014 eat vibrant, live vibrant!"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "strikeoutPrice": "40",
         "quantity": "1 kg",
         "image": "/assets/vegetables/tomato.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Juicy and ripe, our Tomatoes bring a burst of flavor to every dish. Full of antioxidants like lycopene, they promote heart health and glowing skin. Ideal for sauces, salads, or chutneys \u2014 taste the tang of wellness!"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "strikeoutPrice": 80,
         "quantity": "1 kg",
         "image": "/assets/vegetables/big-onion.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Sweet, bold, and aromatic, Big Onions are the heart of every flavorful dish. Rich in antioxidants and versatile in use \u2014 from curries to salads. Freshly harvested for your everyday kitchen needs. A flavor essential!"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "strikeoutPrice": 150,
         "quantity": "1 kg",
         "image": "/assets/vegetables/small-onion.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Pungent and flavorful, Small Onions add depth and richness to traditional dishes. Packed with nutrients and a powerful punch, they're a kitchen must-have. Elevate your curries and gravies with this authentic ingredient!"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "strikeoutPrice": "60",
         "quantity": "1 kg",
         "image": "/assets/vegetables/radish.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Crunchy, peppery, and nutrient-packed! Radish supports detox and digestion while adding zing to your salads, sambars, and stir-fries. Fresh from the farm, it's your crunchy companion to a cleaner, healthier diet."
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "strikeoutPrice": 100,
         "quantity": "500 g",
         "image": "/assets/vegetables/kovaikkai.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Tender and tasty, Kovaikkai (Ivy Gourd) is perfect for stir-fries and curries. Low in calories and high in fiber, it's your go-to for light, healthy meals. A flavorful choice for every health-conscious kitchen!"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "strikeoutPrice": "120",
         "quantity": "500 g",
         "image": "/assets/vegetables/organic-poondu.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Grown without chemicals, our Organic Garlic delivers rich flavor and health benefits. Boosts immunity, fights infection, and enhances taste in every dish. A must for conscious cooks seeking both flavor and wellness!"
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "strikeoutPrice": "160",
         "quantity": "1 kg",
         "image": "/assets/vegetables/poondu.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Strong, pungent, and packed with power! Poondu (Garlic) enhances flavor while promoting heart and immune health. Perfect for every recipe\u2014from pickles to pastas. Taste the spice of tradition!"
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "strikeoutPrice": "120",
         "quantity": "1 bunch",
         "image": "/assets/vegetables/grandiflora.jpg",
-        "category": "greens"
+        "category": "greens",
+        "description": "Packed with iron, calcium, and folate, Grandiflora leaves are a natural health booster. Ideal for soups or poriyals, these tender greens promote vitality and digestion. A traditional supergreen with modern wellness benefits!"
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "strikeoutPrice": "70",
         "quantity": "5 pcs",
         "image": "/assets/vegetables/drumstick.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Tender and nutritious, Drumsticks are loaded with vitamins and minerals. Ideal for sambar, curries, or soups \u2014 they enhance flavor and boost wellness. Farm-fresh and rich in antioxidants, it\u2019s a must-have in every South Indian kitchen!"
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "strikeoutPrice": "50",
         "quantity": "1 bunch",
         "image": "/assets/vegetables/drumstick-leaf.png",
-        "category": "greens"
+        "category": "greens",
+        "description": "Nature\u2019s green powerhouse! Packed with essential vitamins, iron, and antioxidants, these miracle leaves boost immunity, enhance energy, and support overall wellness. Perfect for soups, curries, or health drinks. Freshly harvested for maximum nutrition \u2014 bring home the superfood your body deserves. Eat fresh, live strong!"
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "strikeoutPrice": "20",
         "quantity": "1 bunch",
         "image": "/assets/vegetables/pudina.jpg",
-        "category": "greens"
+        "category": "greens",
+        "description": "Refreshing and aromatic, Pudina (Mint) is perfect for chutneys, teas, and garnishes. Packed with cooling properties and digestion benefits, it\u2019s a flavorful must-have in every kitchen. Freshness in every leaf \u2014 spice up your meals naturally!"
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "strikeoutPrice": "70",
         "quantity": "100 g",
         "image": "/assets/vegetables/ginger.jpg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Zesty, warming, and healing \u2014 Ginger boosts immunity, fights inflammation, and adds kick to every dish. Ideal for teas, curries, and marinades. Freshly harvested for bold flavor and wellness in every slice!"
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
         "strikeoutPrice": "70",
         "quantity": "5 pcs",
         "image": "/assets/vegetables/snake-guard.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Mild in flavor but rich in health benefits, Snake Gourd aids digestion and cools the body. Ideal for stir-fries and stews, it\u2019s a staple in healthy Indian cooking. Eat smart, feel light!"
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
         "strikeoutPrice": "15",
         "quantity": "1 bunch",
         "image": "/assets/vegetables/curry-leaves.jpg",
-        "category": "greens"
+        "category": "greens",
+        "description": "Fragrant and flavorful, Curry Leaves infuse dishes with signature aroma and taste. Rich in iron and antioxidants, they enhance both flavor and nutrition. A classic touch to every South Indian dish!"
     },
     {
         "id": 20,
@@ -177,7 +196,8 @@
         "strikeoutPrice": "30",
         "quantity": "1 bunch",
         "image": "/assets/vegetables/corindar.jpg",
-        "category": "greens"
+        "category": "greens",
+        "description": "Fresh and citrusy, Coriander leaves brighten up any dish \u2014 from curries to chutneys. Loaded with vitamins and detoxifying properties. Add a touch of green and goodness to your cooking!"
     },
     {
         "id": 21,
@@ -186,7 +206,8 @@
         "strikeoutPrice": "80",
         "quantity": "1 kg",
         "image": "/assets/vegetables/bitter-guard.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Don\u2019t let the name fool you \u2014 Bitter Gourd is a health gem! Regulates blood sugar, detoxifies the body, and adds unique flavor. Ideal for stir-fries and juices. Eat bitter, feel better!"
     },
     {
         "id": 22,
@@ -195,10 +216,7 @@
         "strikeoutPrice": "50",
         "quantity": "1 kg",
         "image": "/assets/vegetables/beans.jpeg",
-        "category": "vegetables"
+        "category": "vegetables",
+        "description": "Tender, crunchy, and loaded with fiber and protein. Our fresh Beans are perfect for stir-fries, curries, or simply steamed. Fuel your day with this green energy booster \u2014 eat healthy, stay active!"
     }
-      
 ]
-
-
-
